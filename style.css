@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+  
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+  }
+
+h2{
+ font-size: 3rem;
+}
+
+header{
+    background-color: rgb(18, 160, 18);
+    padding: 2rem;
+    margin-bottom: 5rem;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 70%;
+    margin:  0  auto;
+    font-size: 2rem;
+    color:white;
+    flex-wrap: wrap;
+}
+
+nav input{
+    padding: 1rem;
+    border-radius: 1rem;
+     flex : 0 0 50%;
+}
+
+.container{
+  
+   border: 1px solid rgb(172, 170, 170);
+   width: 80%;
+   margin: 0 auto;
+   display: flex;
+   /* flex-grow: wrap; */
+   flex-direction: column;
+   padding: 2rem;
+}
+.submit_input{
+  flex : 0 0  20%;
+  height: 3rem;
+  padding: 1rem;
+}
+.submit_btn{
+  flex : 0 0  5%;
+  padding: .7rem;
+  /* height: 3rem; */
+  background-color: rgb(129, 129, 129);
+}
+.item_list{
+  width: 90%;
+  list-style: none;
+  
+}
+.item{
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-between;
+  border: .2px solid rgb(172, 170, 170);
+  padding: 1rem;
+  border-bottom:0px ;
+}
+.item:last-child{
+  border-bottom: 1px solid rgb(172, 170, 170) ;
+}
+.delete_btn{
+  background-color: red;
+  /* width: 5%; */
+  flex : 0 0 4rem;
+}
+
+
